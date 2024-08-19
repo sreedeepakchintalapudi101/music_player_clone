@@ -1,0 +1,37 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.music-logo {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 10px grey;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    display: flex;
+    flex-basis: 50px;
+    font-size: 25px;
+    gap: 25px;
+}
+
+ a:link {
+    color: red;
+ }
+
+ a:visited {
+    color: blue;
+ }
+ 
+ a:active {
+    color: green;
+ }
+
+ a:hover {
+    font-size: 30px;
+ }
